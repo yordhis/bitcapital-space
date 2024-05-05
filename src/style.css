@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.navbar {
+	background-color: #333;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.deposit-info,
+.investment-options,
+.transactions,
+.info {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #f2f2f2;
+}
+
+.deposit-info h2,
+.investment-options h2,
+.transactions h2,.info h2 { font-size: 1.5em; margin-top: 0; margin-bottom: 10px; }
+
+.investment-options .option { margin-bottom: 20px; }
+
+.investment-options .option h3 { font-size: 1.2em; margin-top: 0; margin-bottom: 10px; }
+
+.deposit-form { margin-top: 20px; }
+
+.deposit-form input { width: 100%; padding: 10px; margin-top: 5px; }
+
+.transactions .transaction { margin-bottom: 10px; }
+
+.info h2 { font-size: 1.2em; margin-top: 0; margin-bottom: 10px; }
