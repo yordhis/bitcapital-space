@@ -3,7 +3,7 @@
 # if your server did not have mod_rewrite enabled
 
 RewriteEngine On
-# RewriteBase /
+RewriteBase /
 # NOT needed unless you're using mod_alias to redirect
 
 RewriteCond %{REQUEST_URI} !/public
