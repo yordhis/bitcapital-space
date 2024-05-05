@@ -47,6 +47,16 @@
 
 <body>
 
+  <pre style="background-color: #fff; position: absolute;">
+ <?php include 'php/conexion.php'; 
+   var_dump($conexion);
+    if($conexion){
+         echo 'Conectado a la base de datos';
+     }else{
+         echo 'Base de datos no conectada';
+     }
+ ?>
+ </pre>
  <!-- Inicio de espacio  -->  
  <div class="space">
     <!-- Navbar -->
